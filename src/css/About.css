@@ -1,0 +1,37 @@
+.about {
+    padding: 2rem;
+    /* background-color: #f5a1a1; */
+    background-color: #f4f7f6;
+    font-size: 2rem;
+    margin-right: -6%;
+  }
+  
+  .about h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  #about-paragraph {
+    line-height: 1.6;
+    text-align: justify; 
+    text-justify: inter-word; 
+    font-size: 1.3rem;
+  }
+  
+  #about-paragraph span {
+    display: inline-block;
+    transition: background-color 0.5s ease;
+  }
+  
+  
+  @keyframes highlight-animation {
+    0% { background-color: transparent; }
+    100% { background-color: transparent; }
+  }
+  
+  .highlight {
+    animation: highlight-animation 2s linear infinite;
+    background-color: #bee913; 
+    color: #070707;
+    font-weight:bolder; 
+  }

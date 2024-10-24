@@ -1,0 +1,48 @@
+/* Project.css */
+.project {
+    padding: 2rem;
+    background-color: #f5a1a1;
+    margin-right: -6%;
+  }
+  
+  .project h2 {
+    text-align: center;
+    margin-bottom: 1.4rem;
+    font-size: 1.6rem;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 4 columns */
+    gap: 1rem;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  
+  .project-box {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 3%;
+  }
+  
+  .project-box:hover {
+    background-color: #02bf6a;
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  .project-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-name {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
